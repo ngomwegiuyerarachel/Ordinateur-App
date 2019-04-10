@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+
+            />
+
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittexts"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="username"
+            android:id="@+id/editusername"/>
+
+        <EditText
+            android:textColor="#fff"
+            android:gravity=""
+            android:textColorHint="#fff"
+            android:background="@drawable/edittexts"
+            android:layout_width="300dp"
+            android:inputType="textPassword"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="password"
+            android:id="@+id/editpassword"/>
+
+        <Button
+            android:textColor="#ffff"
+            android:background="#23A"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:id="@+id/boutonlogin"
+            android:text="bLogin"
+            android:layout_height="60dp" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="S'inscrire"
+            android:id="@+id/editsinscrire"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

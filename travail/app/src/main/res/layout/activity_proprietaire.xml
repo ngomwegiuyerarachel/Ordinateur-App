@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_proprietaire">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:background="#3A21"
+        >
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittexts"
+            android:hint="Nom"
+            android:id="@+id/editnom"
+            android:textColor="#3AA4"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittexts"
+            android:hint="post_nom"
+            android:id="@+id/editpostnom"
+            android:textColor="#3A34"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittexts"
+            android:hint="pre_nom"
+            android:id="@+id/editprenom"
+            android:textColor="#3AA4"
+            android:textColorHint="#fff" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittexts"
+            android:hint="Adresse"
+            android:id="@+id/editadresse"
+            android:textColor="#3AA4"
+            android:textColorHint="#fff" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittexts"
+            android:hint="contact"
+            android:id="@+id/editcontact"
+            android:textColor="#3AA4"
+            android:textColorHint="#fff" />
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#4ABCD6"
+            android:text="Save"
+            android:layout_gravity="center"
+            android:id="@+id/button_Save"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".paiement">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:background="#3A21">
+
+        <EditText
+            android:id="@+id/edit_id"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Id"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+
+        <EditText
+            android:id="@+id/edit_mode_paiement"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="mode"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#fB34"
+            android:text="OK"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

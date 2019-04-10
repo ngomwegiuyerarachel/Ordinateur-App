@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_materiel"
+    android:background="#3A21">
+
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittexts"
+        android:hint="Name"
+        android:id="@+id/editname"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textColor="#23A"
+        android:textColorHint="#23A"/>
+
+
+    <EditText
+
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittexts"
+        android:hint="Prix"
+        android:id="@+id/editprix"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="94dp"
+        android:textColor="#23A"
+        android:textColorHint="#23A"/>
+
+    <ImageView
+
+        android:id="@+id/editphotoarticle"
+        android:layout_width="178dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="174dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnchoisir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choisir_image"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="list_mat"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="387dp" />
+</LinearLayout>

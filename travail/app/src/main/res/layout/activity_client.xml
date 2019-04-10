@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_client">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:background="#3A21"
+        >
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Id"
+            android:id="@+id/editText_id"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Name"
+            android:id="@+id/editText_name"
+            android:textColorHint="#000"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Age"
+            android:id="@+id/editText_age"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Username"
+            android:id="@+id/editText_username"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="password"
+            android:id="@+id/editText_password"
+            android:inputType="textPassword"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+
+
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="#3AA4"
+            android:text="Save"
+            android:id="@+id/button_add"
+            android:textColor="#000" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

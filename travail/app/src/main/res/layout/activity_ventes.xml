@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ventes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:background="#3A21"
+        >
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Id"
+            android:id="@+id/editText_id"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Nameclient"
+            android:id="@+id/editText_namecl"
+            android:textColorHint="#000"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Nomproprietaire"
+            android:id="@+id/editText_nameprop"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="Article"
+            android:id="@+id/editText_article"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittexts"
+            android:hint="prix"
+            android:id="@+id/editText_prix"
+            android:textColor="#fff"
+            android:textColorHint="#000" />
+
+
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="#3AA4"
+            android:text="Save"
+            android:id="@+id/button_add"
+            android:textColor="#000" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

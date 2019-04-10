@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">travail</string>
+    <string name="select_mode">select_mode</string>
+    <string-array name="mode_name">
+
+        <item>banque</item>
+        <item>mobilemoney</item>
+        <item>Carte </item>
+
+    </string-array>
+</resources>
